@@ -1,0 +1,17 @@
+proxies:
+- name: Atha
+  type: trojan
+  server: id-atha.bypass.id
+  port: 443
+  password: 14e00f10-de55-11ec-a7e9-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
+- name: Contabo
+  type: trojan
+  server: trojan-contabo1.bypass.id
+  port: 443
+  password: eea348e0-de56-11ec-a45b-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
