@@ -7,19 +7,19 @@ proxies:
   udp: true
   sni: api2-t3.musical.ly
   skip-cert-verify: true
-- name: UninetJ
-  type: trojan
-  server: id-uninettj.bypass.id
-  port: 443
-  password: d6d932b0-de56-11ec-b69c-1577c1651679
-  udp: true
-  sni: api2-t3.musical.ly
-  skip-cert-verify: true
 - name: Biznet
   type: trojan
   server: id-biznet.bypass.id
   port: 443
   password: a2853d60-de56-11ec-b22c-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
+- name: UninetJ
+  type: trojan
+  server: id-uninettj.bypass.id
+  port: 443
+  password: d6d932b0-de56-11ec-b69c-1577c1651679
   udp: true
   sni: api2-t3.musical.ly
   skip-cert-verify: true
@@ -31,6 +31,14 @@ proxies:
   udp: true
   sni: api2-t3.musical.ly
   skip-cert-verify: true
+- name: Sanggoro
+  type: trojan
+  server: id-sanggoro.bypass.id
+  port: 443
+  password: 30c28b40-f123-11ec-8cc0-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
 - name: Kreatif
   type: trojan
   server: id-ikd.bypass.id
@@ -39,11 +47,27 @@ proxies:
   udp: true
   sni: api2-t3.musical.ly
   skip-cert-verify: true
-- name: Sanggoro
+- name: CTN
   type: trojan
-  server: id-sanggoro.bypass.id
+  server: id-ctn.bypass.id
   port: 443
-  password: 7a7527d0-e0bf-11ec-87c3-1577c1651679
+  password: a13f59f0-f126-11ec-8d5a-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
+- name: Argon
+  type: trojan
+  server: id-argontj.bypass.id
+  port: 443
+  password: f6c54b30-f126-11ec-850a-1577c1651679
+  udp: true
+  sni: api2-t3.musical.ly
+  skip-cert-verify: true
+- name: Nusa
+  type: trojan
+  server: id-nusa-jkt.bypass.id
+  port: 443
+  password: 3d26b8e0-f127-11ec-8fd4-1577c1651679
   udp: true
   sni: api2-t3.musical.ly
   skip-cert-verify: true
