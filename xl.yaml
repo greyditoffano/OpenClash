@@ -1,5 +1,5 @@
 proxies:
-  - name: SGSS Vision
+  - name: SGSS Vision+
     server: 104.21.235.171
     port: 80
     type: vmess
@@ -14,8 +14,7 @@ proxies:
       path: /fastssh
       headers:
         Host: sggs.1server.co
-    udp: true
-  - name: IKD Vision
+  - name: IKD Vision+ Rev
     server: 104.21.235.171
     port: 80
     type: vmess
@@ -31,7 +30,7 @@ proxies:
       headers:
         Host: id-ikd1.bypass.id
     udp: true
-  - name: Herza Vision
+  - name: Herza Vision+
     server: 104.21.235.171
     port: 80
     type: vmess
@@ -47,7 +46,7 @@ proxies:
       headers:
         Host: 2.lowh.net
     udp: true
-  - name: Sanggoro Vision
+  - name: Sanggoro Vision+
     server: 104.21.235.171
     port: 80
     type: vmess
