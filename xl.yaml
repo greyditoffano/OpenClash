@@ -19,7 +19,7 @@ proxies:
     server: 104.21.235.171
     port: 80
     type: vmess
-    uuid: 55ef3ac0-9ed8-11ed-9ff8-1577c1651679
+    uuid: 44185820-9ff3-11ed-a2ca-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
