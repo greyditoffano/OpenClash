@@ -1,4 +1,19 @@
 proxies:
+  - name: SGSS Ilped
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 84c72a80-9fea-11ed-952c-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sggs.1server.co
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sggs.1server.co
   - name: IKD Ilped
     server: 104.26.7.171
     port: 80
