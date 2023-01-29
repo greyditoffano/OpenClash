@@ -14,11 +14,11 @@ proxies:
       path: /fastssh
       headers:
         Host: sggs.1server.co
-  - name: IKD Ilped
+  - name: IKD Ilped Rev
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 2c30d070-99e7-11ed-8987-1577c1651679
+    uuid: 44185820-9ff3-11ed-a2ca-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
