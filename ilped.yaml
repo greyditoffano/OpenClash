@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: 2.lowh.net
     udp: true
-  - name: Sanggoro Ilped Rev
+  - name: Sanggoro ILPED
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -55,10 +55,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-sanggoro-jkt3.1server.co
+    servername: 5.lowh.net
     network: ws
     ws-opts:
       path: /fastssh
       headers:
-        Host: id-sanggoro-jkt3.1server.co
+        Host: 5.lowh.net
     udp: true
