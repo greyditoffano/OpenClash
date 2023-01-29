@@ -1,0 +1,65 @@
+proxies:
+  - name: SGSS Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: 84c72a80-9fea-11ed-952c-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sggs.1server.co
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sggs.1server.co
+    udp: true
+  - name: IKD Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: 55ef3ac0-9ed8-11ed-9ff8-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-ikd1.bypass.id
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-ikd1.bypass.id
+    udp: true
+  - name: Herza Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: a5b87690-9be8-11ed-8697-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 2.lowh.net
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: 2.lowh.net
+    udp: true
+  - name: Sanggoro Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: 3fc05710-9f77-11ed-a14d-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: 5.lowh.net
+    udp: true

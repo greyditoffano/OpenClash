@@ -1,0 +1,49 @@
+proxies:
+  - name: IKD Ilped
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 2c30d070-99e7-11ed-8987-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-ikd1.bypass.id
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-ikd1.bypass.id
+    udp: true
+  - name: Herza Ilped
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: a5b87690-9be8-11ed-8697-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 2.lowh.net
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: 2.lowh.net
+    udp: true
+  - name: Sanggoro Ilped
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 9bff76a0-8d13-11ed-9515-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-sanggoro-jkt3.1server.co
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-sanggoro-jkt3.1server.co
+    udp: true
