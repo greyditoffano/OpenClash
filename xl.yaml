@@ -1,4 +1,20 @@
 proxies:
+  - name: Contabo Vision+
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: 703e74a0-a022-11ed-ba87-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-contabo3.1server.co
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sg-contabo3.1server.co
+    udp: true
   - name: SGSS Vision+
     server: 104.21.235.171
     port: 80
