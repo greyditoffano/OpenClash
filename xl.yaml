@@ -1,4 +1,20 @@
 proxies:
+  - name: OVH Vision+
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-ovh2.1server.co
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: sg-ovh2.1server.co
+    udp: true
   - name: Contabo Vision+
     server: 104.21.235.171
     port: 80
