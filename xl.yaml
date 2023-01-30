@@ -46,8 +46,8 @@ proxies:
       path: /fastssh
       headers:
         Host: sggs.1server.co
-  - name: IKD Vision+
-    server: 104.21.235.171
+  - name: IKD Vision+ New
+    server: stream-cdn.mncnow.id
     port: 80
     type: vmess
     uuid: 44185820-9ff3-11ed-a2ca-1577c1651679
@@ -62,8 +62,8 @@ proxies:
       headers:
         Host: id-ikd1.bypass.id
     udp: true
-  - name: Herza Vision+
-    server: 104.21.235.171
+  - name: Herza Vision+ New
+    server: stream-cdn.mncnow.id
     port: 80
     type: vmess
     uuid: a5b87690-9be8-11ed-8697-1577c1651679
@@ -78,8 +78,8 @@ proxies:
       headers:
         Host: 2.lowh.net
     udp: true
-  - name: Sanggoro Vision+
-    server: 104.21.235.171
+  - name: Sanggoro Vision+ New
+    server: stream-cdn.mncnow.id
     port: 80
     type: vmess
     uuid: d1ed2aa0-9ff3-11ed-bd3b-1577c1651679
