@@ -47,19 +47,19 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: IKD Vision+ New
-    server: stream-cdn.mncnow.id
-    port: 443
+  - name: IKD Vision+
+    server: 104.21.235.171
+    port: 80
     type: vmess
-    uuid: 44185820-9ff3-11ed-a2ca-1577c1651679
+    uuid: ef69c540-a206-11ed-a0bc-1577c1651679
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: id-ikd1.bypass.id
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /files
       headers:
         Host: id-ikd1.bypass.id
     udp: true
