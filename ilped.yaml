@@ -47,11 +47,11 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: IKD ILPED
+  - name: IKD ILPED New
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: ef69c540-a206-11ed-a0bc-1577c1651679
+    uuid: 9df789a0-a553-11ed-8a35-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
