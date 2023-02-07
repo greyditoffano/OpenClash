@@ -63,6 +63,22 @@ proxies:
       headers:
         Host: id-ikd1.bypass.id
     udp: true
+  - name: Sanggoro Vision+ Baru
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: f91a60d0-a69d-11ed-a9fc-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: 5.lowh.net
+    udp: true
   - name: Herza Vision+
     server: 104.21.235.171
     port: 80
@@ -78,20 +94,4 @@ proxies:
       path: /fastssh
       headers:
         Host: 2.lowh.net
-    udp: true
-  - name: Sanggoro Vision+ Rev
-    server: 104.21.235.171
-    port: 80
-    type: vmess
-    uuid: 67eda490-a681-11ed-a87d-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
-    network: ws
-    ws-opts: 
-      path: /files
-      headers: 
-        Host: 5.lowh.net
     udp: true
