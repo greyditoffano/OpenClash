@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: 2.lowh.net
     udp: true
-  - name: Sanggoro Vision+
+  - name: Sanggoro Vision+ Rev
     server: 104.21.235.171
     port: 80
     type: vmess
@@ -87,11 +87,11 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: true
-    servername: 5.lowh.net
+    skip-cert-verify: false
+    servername: 
     network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
+    ws-opts: 
+      path: /files
+      headers: 
         Host: 5.lowh.net
     udp: true
