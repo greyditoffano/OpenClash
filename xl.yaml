@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: IKD Vision+ New
+  - name: IKD Vision+
     server: 104.21.235.171
     port: 80
     type: vmess
@@ -63,14 +63,14 @@ proxies:
       headers:
         Host: id-ikd1.bypass.id
     udp: true
-  - name: Herza Vision+ New
-    server: stream-cdn.mncnow.id
-    port: 443
+  - name: Herza Vision+
+    server: 104.21.235.171
+    port: 80
     type: vmess
     uuid: a5b87690-9be8-11ed-8697-1577c1651679
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: 2.lowh.net
     network: ws
@@ -80,13 +80,13 @@ proxies:
         Host: 2.lowh.net
     udp: true
   - name: Sanggoro Vision+
-    server: stream-cdn.mncnow.id
-    port: 443
+    server: 104.21.235.171
+    port: 80
     type: vmess
     uuid: 67eda490-a681-11ed-a87d-1577c1651679
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: 5.lowh.net
     network: ws
