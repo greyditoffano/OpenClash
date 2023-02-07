@@ -79,11 +79,11 @@ proxies:
       headers:
         Host: 2.lowh.net
     udp: true
-  - name: Sanggoro ILPED 
+  - name: Sanggoro ILPED Rev
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: d1ed2aa0-9ff3-11ed-bd3b-1577c1651679
+    uuid: 67eda490-a681-11ed-a87d-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
