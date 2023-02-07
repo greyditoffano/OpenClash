@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: IKD ILPED New
+  - name: IKD Ilped
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -63,14 +63,30 @@ proxies:
       headers:
         Host: id-ikd1.bypass.id
     udp: true
-  - name: Herza ILPED 
+  - name: Sanggoro Ilped Baru
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: f91a60d0-a69d-11ed-a9fc-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: 5.lowh.net
+    udp: true
+  - name: Herza Ilped
     server: 104.26.7.171
     port: 80
     type: vmess
     uuid: a5b87690-9be8-11ed-8697-1577c1651679
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: 2.lowh.net
     network: ws
@@ -78,20 +94,4 @@ proxies:
       path: /fastssh
       headers:
         Host: 2.lowh.net
-    udp: true
-  - name: Sanggoro ILPED Rev
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 67eda490-a681-11ed-a87d-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 5.lowh.net
-    network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
-        Host: 5.lowh.net
     udp: true
