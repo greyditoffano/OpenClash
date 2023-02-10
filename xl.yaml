@@ -47,21 +47,21 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: IKD Vision+
+  - name: SG Path XL Vision+
     server: 104.21.235.171
     port: 80
     type: vmess
-    uuid: 9df789a0-a553-11ed-8a35-1577c1651679
+    uuid: 81f94390-a93f-11ed-8f9f-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: true
-    servername: id-ikd1.bypass.id
+    skip-cert-verify: false
+    servername: sg.xmbb.net
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /files
-      headers:
-        Host: id-ikd1.bypass.id
+      headers: 
+        Host: sg.xmbb.net
     udp: true
   - name: Sanggoro Vision+ Baru
     server: 104.21.235.171
