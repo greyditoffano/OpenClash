@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: SG Path XL Vision+
+  - name: SG Path XL Vision+ New
     server: 104.21.235.171
     port: 80
     type: vmess
